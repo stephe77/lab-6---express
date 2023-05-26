@@ -1,0 +1,9 @@
+POST /v1/comments HTTP/1.1
+Host: 127.0.0.1:8080
+
+{"name":"sdfdd","age":34}
+
+###
+
+GET /v1/stats HTTP/1.1
+Host: 127.0.0.1:8080
