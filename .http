@@ -1,9 +1,19 @@
 POST /v1/comments HTTP/1.1
-Host: 127.0.0.1:8080
+Host: 127.0.0.1:5000
 
-{"name":"sdfdd","age":34}
+{"name":"ayx","age":19, "apiKey": 123}
 
 ###
 
 GET /v1/stats HTTP/1.1
-Host: 127.0.0.1:8080
+Host: 127.0.0.1:5000
+
+###
+
+# POST /v1/users?apiKey=123 HTTP/1.1
+# Host: 127.0.0.1:5000
+
+# {"name":"ayx","age":19, "apiKey": 123}
+
+# POST /v1/login HTTP/1.1
+# Host: 127.0.0.1:5000
